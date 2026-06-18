@@ -1,6 +1,6 @@
 import type {BestCharingTimeResponse, DailyMixResponse} from "../types/energy.ts";
 
-const BASE_URL = 'http://127.0.0.1:8080'
+const BASE_URL = 'https://energyprojectv2.onrender.com'
 
 export async function fetchDailyAvg(){
     try{
